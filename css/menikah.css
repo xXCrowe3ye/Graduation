@@ -36,8 +36,8 @@ html {
 
 
 .hero {
-  background-image: url(https://picsum.photos/id/25/1920/1080);
-  background: linear-gradient(rgba(80, 200, 120, 0.65), rgba(80, 200, 120, 0.65)), rgba(0, 0, 0, 0.55) url("https://picsum.photos/id/381/1920/1080") no-repeat;
+  background-image: url(https://r4.wallpaperflare.com/wallpaper/92/95/748/5bd0eb701f715-wallpaper-226102a00d763e1b3a0812d520382962.jpg);
+  background: linear-gradient(rgba(80, 200, 120, 0.65), rgba(80, 200, 120, 0.65)), rgba(0, 0, 0, 0.55) url("https://r4.wallpaperflare.com/wallpaper/92/95/748/5bd0eb701f715-wallpaper-226102a00d763e1b3a0812d520382962.jpg") no-repeat;
   background-attachment: fixed;
   background-size: cover;
   color: white;
