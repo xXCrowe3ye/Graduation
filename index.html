@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="theme-color" content="#BC8887" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Invitation card to the graduation celebration</title>
+
+    <meta property="og:title" content="Invitation card to the graduation celebration - 09/15/2024">
+    <meta property="og:description" content="">
+    <meta property="og:locale" content="vi_VI" />
+    <meta property="og:image" content="https://png.pngtree.com/png-clipart/20230213/ourmid/pngtree-cute-bear-happy-graduation-sticker-elements-for-decoration-png-image_6597620.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <!-- Bulma Version 0.8.x-->
+    <link rel="stylesheet" href="https://unpkg.com/bulma@0.8.0/css/bulma.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/bulma-tooltip@0.1.5/dist/bulma-tooltip.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/menikah.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.countdown.css" />
+    <script
+      src="https://kit.fontawesome.com/2828f7885a.js"
+      integrity="sha384-WAsFbnLEQcpCk8lM1UTWesAf5rGTCvb2Y+8LvyjAAcxK1c3s5c0L+SYOgxvc6PWG"
+      crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/jquery.coundown.js"></script>
+    <link rel="icon" type="image/png" href="image/logo.png" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23064379-20"></script>
+    <!-- Begin Script for Countdown -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-23064379-20');
+    </script>
+    <!-- Begin Script for Countdown -->
+
+    <!-- Github Button -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+  </head>
+
+  <body>
+    <!-- Begin Preloader -->
+    <div class="preloader-wrapper">
+      <div class="preloader">
+        <img src="image/logo.png" alt="Flower" />
+      </div>
+    </div>
+    <!-- End Preloader-->
+    <!-- Begin Header -->
+    <div class="header-wrapper" id="home">
+      <!-- Begin Hero -->
+      <section class="hero is-large">
+        <!-- Begin Mobile Nav -->
+        <nav class="navbar is-transparent is-hidden-desktop">
+          <!-- Begin Burger Menu -->
+          <div class="navbar-brand is-fixed-top">
+            <div class="navbar-burger burger" data-target="mobile-nav">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <!-- End Burger Menu -->
+          <div id="mobile-nav" class="navbar-menu">
+            <div class="navbar-end">
+              <div class="navbar-item">
+                <a class="navbar-item" href="#infor">
+                  Detailed information
+
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a class="navbar-item" href="#map">
+                  Location
+                </a>
+              </div>
+              
+              <div class="navbar-item">
+                <a class="navbar-item" href="#summary">
+                  Summary
+                </a>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <!-- End Mobile Nav -->
+        <!-- Begin Hero Content-->
+        <div class="hero-body">
+          <div class="container has-text-centered">
+            <h1 class="subtitle">Invitation card to the graduation celebration</h1>
+            <h2 class="title">Hanz Angelo Bernabe</h2>
+            <h4 class="">
+                Sunday September 15, 2024 - 12:00pm (Lunch)
+                </br>
+              </br>
+                At Bernabe's Residence
+                </br>
+                Zone 6 Tartaro, San Miguel, Bulacan
+            </h4>
+          </div>
+          <!-- Start Countdown -->
+          <div>
+            <ul id="hitungmundur">
+              <li><span class="days">00</span><p class="days_text">Days</p></li>
+              <li class="separator">:</li>
+              <li><span class="hours">00</span><p class="hours_text">Hours</p></li>
+              <li class="separator">:</li>
+              <li><span class="minutes">00</span><p class="minutes_text">Minutes</p></li>
+              <li class="separator">:</li>
+              <li><span class="seconds">00</span><p class="seconds_text">Seconds</p></li>
+            </ul>
+            <div class="spasi"></div>
+            <script type="text/javascript">
+              var eventDate = new Date('09/15/2024 12:00:00');
+
+              function updateCountdown() {
+                var now = new Date();
+                var timeDiff = eventDate - now;
+
+                if (timeDiff <= 0) {
+                  clearInterval(interval);
+                  alert('The event has started!');
+                  return;
+                }
+
+                var days = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
+                var hours = Math.floor((timeDiff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                var minutes = Math.floor((timeDiff % (1000 * 60 * 60)) / (1000 * 60));
+                var seconds = Math.floor((timeDiff % (1000 * 60)) / 1000);
+
+                document.querySelector('#hitungmundur .days').textContent = days;
+                document.querySelector('#hitungmundur .hours').textContent = hours;
+                document.querySelector('#hitungmundur .minutes').textContent = minutes;
+                document.querySelector('#hitungmundur .seconds').textContent = seconds;
+              }
+
+              var interval = setInterval(updateCountdown, 1000);
+              updateCountdown(); // Initial call to display the countdown immediately
+            </script>
+          </div>
+          <!-- End Countdown -->
+
+        </div>
+        <!-- End Hero Content-->
+        <!-- Begin Hero Menu -->
+        <div class="hero-foot ">
+          <div class="hero-foot--wrapper">
+            <div class="columns">
+              <div class="column is-12 hero-menu-desktop has-text-centered">
+                <ul>
+                  <li class="is-active">
+                    <a href="#home">Home</a>
+                  </li>
+                  <li>
+                    <a href="#infor">Information</a>
+                  </li>
+                  <li>
+                    <a href="#map">Location</a>
+                  </li>
+                  <li>
+                    <a href="#summary">Summary</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Hero Menu -->
+      </section>
+      <!-- End Hero -->
+    </div>
+    <!-- End Header -->
+
+    <!-- Begin Main Content -->
+    <div class="main-content">
+    <!-- Begin regular-section-->
+     <section class="no-padding-top regular-section has-text-centered has-vertically-aligned-content" id="regular-section">
+
+        <p class="bodytext" data-aos="fade-up" data-aos-easing="linear">
+          You're warmly invited to join me, Hanz Angelo Bernabe, in celebrating my graduation. It would mean a lot to have you there to share in the joy and create lasting memories on this special day.
+          <br />
+          Your presence will add joy to our celebration. We would be honored to have you join us in marking this important milestone.
+          <br />
+          <br />
+          For detailed information, please scroll down to see more.
+        </p>
+
+        <span class="space40px"></span>
+        <span class="space40px"></span>
+
+        <div data-aos="fade-up" data-aos-easing="linear">
+          <div class="nama-lengkap" style="padding-bottom: 30px" >
+            Hanz Angelo V. Bernabe - BSIT
+          </div>
+          <img src="image/personal.jpg" alt="" style="border-radius: 50%" class="personal-img">
+        </div>
+        <span class="space40px"></span>
+        <div data-aos="fade-up" data-aos-easing="linear">
+          <img src="image/divider-leaves.png" class="divider has-text-centered" alt="~~~">
+        </div>
+        <!-- <span class="space40px"></span>
+        <span class="space40px"></span> -->
+      </section>
+      <!-- End regular-section-->    
+      
+      <!-- Begin infor Section -->
+      <section class="section-dark" id="infor">
+        <div class="container">
+
+          <div class="column is-12 regular-section" data-aos="fade-up" data-aos-easing="linear">
+            <h1 class="title has-text-centered section-title">Event Information</h1>
+          </div>
+          <div class="columns is-multiline" data-aos="fade-up" data-aos-easing="linear">
+            <div
+              class="column is-4 has-vertically-aligned-content">
+            
+              <p class="is-larger has-text-centered">
+                  <div class="time  has-text-centered">Sunday</div>
+                  <div class="time  has-text-centered">15</div>
+                  <div class="time  has-text-centered">September 2024</div>
+              </p>
+            
+            </div>
+            <div class="column is-4 has-vertically-aligned-content">
+            
+              <p class="time is-larger has-text-centered font-base">
+                Time:
+                <br>
+                <strong>12:00PM noon</strong>
+              </p>
+            
+            </div>
+
+            <div class="column is-4 has-vertically-aligned-content">
+              
+              <h1 class="time is-larger has-text-centered font-base">
+                Contact Info:
+                <br>
+                <strong>hanzangelobernabe212@gmail.com</strong>
+              </h1>
+              
+              
+            </div>
+
+          </div>
+        </div>
+        <div class="space40px"></div>
+        <div class="main-content has-text-centered" data-aos="fade-up" data-aos-easing="linear">
+          <a href="https://calendar.app.google/GRU4pSH1FhZvT8Yf9" class="button has-tooltip btn-cta" data-tooltip="Add to Calendar" target="_blank" data-aos="zoom-in">
+            <i class="far fa-calendar-plus"></i>
+            &nbsp;&nbsp;Google Calendar
+          </a>
+        </div>
+      </section>
+      <!-- End Waktu Content -->
+
+      <!-- Begin map Section -->
+      <section class="section-darker" id="map" >
+        <div class="container">
+          <div class="column is-12 regular-section" style="padding: 0px;" data-aos="fade-up" data-aos-easing="linear">
+            <h1 class="title has-text-centered section-title">Venue</h1>
+            <p class="tempat is-larger has-text-centered">
+              <strong>Bernabe's Residences</strong>
+              <br>
+              <span class="font-base">Zone 6 Tartaro, San Miguel, Bulacan</span>
+              <br>
+            </p>
+          </div>
+          <div class="section-map" data-aos="fade-up" data-aos-easing="linear">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d809.5358395869202!2d121.0422372392435!3d15.1680555815923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sph!4v1725458859138!5m2!1sen!2sph"  width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+          </div>
+          <div class="space40px"></div>
+          <div class="has-text-centered" data-aos="fade-up" data-aos-easing="linear">
+            <a href="https://maps.app.goo.gl/KXDJEGjBRB9c9LRF9" class="button btn-cta" target="_blank" data-aos="zoom-in">
+              <i class="far fa-directions"></i>
+              &nbsp;&nbsp;Google Maps
+            </a>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- Begin RSVP Content -->
+      <section class="section-dark contact" id="summary">
+        <div class="container">
+          <div class="columns is-multiline">          
+            <div class="column is-12 prolog">
+              <h1 class="title has-text-centered section-title" data-aos="fade-up" data-aos-easing="linear">Summary</h1>
+            </div>
+            <div class="column is-12 prolog has-text-centered" data-aos="fade-up" data-aos-easing="linear">
+              <p class="h2 subtitle">
+                Graduation is a remarkable achievement that implies efforts made over the course of years to achieve the goal.
+                <br/>
+                With your support and attendance, this success will be more special to me.
+
+                </p>
+              <div class="space40px"></div>
+              <div data-aos="fade-up" data-aos-easing="linear">
+                <img src="image/divider-leaves.png" class="divider has-text-centered" alt="~~~">
+              </div>
+              <div class="space40px"></div>
+              <p class="h2 subtitle" data-aos="fade-up" data-aos-easing="linear">
+                Hanz Angelo Bernabe
+
+              </p>
+            </div>
+         </div>
+        </div>
+      </section>
+      <!-- End RSVP Content -->
+    </div>
+    <!-- End Main Content -->
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/menikah.js"></script>
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        easing: "ease-out",
+        duration: 800,
+      });
+    </script>
+  </body>
+</html>
